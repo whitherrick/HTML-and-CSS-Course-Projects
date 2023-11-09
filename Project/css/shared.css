@@ -283,9 +283,7 @@ CONTACT STYLES
 }
 
 .terms {
-    margin: 30px 1px 0 0;
-    margin-top: 13%;
-    padding-left: 52px;
+    margin: 23px 41px 0 0;
     font-size: 14px;
     line-height: 5px;
     color: #000;
@@ -297,7 +295,7 @@ CONTACT STYLES
     float: right;
 }
 
-.term:hover{
+.terms:hover{
     color: orange;
     text-decoration: underline;
 }

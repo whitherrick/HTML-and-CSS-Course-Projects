@@ -1,0 +1,120 @@
+
+h1 {
+    font-family: "Georgia", Times New Roman, Times, serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000099;
+    width: 300;
+}
+h2 {
+    font-family: "Georgia", Times New Roman, Times, serif;
+    text-align: center;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.menu-container {
+    width: auto;
+    text-align: center;
+    font: 16px, uppercase, Georgia;
+    background-position: 10%;
+    background-color: #B3B3B3;
+}
+
+.menu {
+    font:bold 12px/18px sans-serif;
+    text-align: center;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu li {
+    color: #faf9f9;
+    display: inline-block;
+    margin-right: -2px;
+    position: relative;
+    padding: 12px 40px;
+    border: 1px solid #9D9FA2;
+    border-radius: 1.5px;
+    background-color: #387593;
+    cursor: pointer;
+}
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 0px auto;
+    background-color: rgba(100, 65, 0, .3);
+    box-shadow: 2px 2px 10 0 rgba(0, 0, 0, 0.5);
+}
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 200px;
+    display: grid;
+    float: right;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+img:hover {
+    box-shadow: 0 0 2px 1px gold;
+}
+.photo-container {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+h3 {
+    text-align: center;
+    font: 16px bold "Georgia", arial;
+}
+.description {
+    text-align: center;
+    font: 16px "Georgia", arial;
+    align-items: center;
+    background-color: #ebeb818c;
+    border: 3px lightslategrey;
+    width:200px;
+    padding: 10px;
+    display:grid;
+}
+.contact-form {
+    text-align: center;
+    font-family: "Georgia", Helvetica, sans-serif;
+    font-size: large;
+    align-items: center;
+    width: 350px;
+    height: 250px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3px;
+    border: solid;
+    border-color: rgb(23, 26, 24);
+    background-color: #3875938e;
+    box-shadow: -1px -1px 1px 0 rgba(0, 0, 0, 1), 1px 2px 10px 0 rgba(0, 0, 0, 0.5);
+}
+input {
+    font-size: 18px ;
+}
+.book-reading {
+    text-align: right;
+    font-family: "Georgia", Helvetica, sans-serif;
+    font-size: large;
+    align-items: right;
+}
+footer {
+    text-align: center;
+    font-family: "Georgia", Helvetica, sans-serif;
+    background-color: #B3B3B3;
+    border: 2px solid black;
+    height: 30px;
+    padding: 10px;
+}

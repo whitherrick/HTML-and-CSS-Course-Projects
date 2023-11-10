@@ -12,7 +12,6 @@ h2 {
     width: 75%;
     margin-left: auto;
     margin-right: auto;
-
 }
 .menu-container {
     width: auto;
@@ -21,7 +20,6 @@ h2 {
     background-position: 10%;
     background-color: #B3B3B3;
 }
-
 .menu {
     font:bold 12px/18px sans-serif;
     text-align: center;
@@ -30,7 +28,6 @@ h2 {
     padding: 0;
     list-style: none;
 }
-
 .menu li {
     color: #faf9f9;
     display: inline-block;
@@ -59,7 +56,7 @@ img {
     padding: 5px;
     width: 200px;
     display: grid;
-    float: right;
+    float: left;
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
@@ -70,6 +67,7 @@ img:hover {
 .photo-container {
     margin-left: 10px;
     margin-right: 10px;
+    margin-top: 20px;
 }
 h3 {
     text-align: center;
@@ -91,8 +89,8 @@ h3 {
     font-size: large;
     align-items: center;
     width: 350px;
-    height: 250px;
-    padding: 5px;
+    height: 400px;
+    padding: 20px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 3px;
@@ -101,8 +99,25 @@ h3 {
     background-color: #3875938e;
     box-shadow: -1px -1px 1px 0 rgba(0, 0, 0, 1), 1px 2px 10px 0 rgba(0, 0, 0, 0.5);
 }
-input {
-    font-size: 18px ;
+input[type="text"] {
+    font-size: 15px;
+    outline: none;
+    font-weight: 600;
+    color: #8D8E8F;
+    padding: 2% 1% 2% 7%;
+    width: 70%;
+    border-top: 1px solid #090B0D;
+    border-right: 2px solid #424549;
+    border-bottom: 2px solid #424549;
+    border-left: 1px solid #090B0D;
+    margin: 10px 1em;
+    border-radius: 7px;
+    background: #e8eaed;
+    box-shadow: inset 0px 3px 0px 0px rgba(5, 5 ,5 0.15);
+    font-family: 'Georgia', sans-serif
+}
+input[type="text"]:hover {
+    box-shadow: 0 0 15px gold;
 }
 .book-reading {
     text-align: right;

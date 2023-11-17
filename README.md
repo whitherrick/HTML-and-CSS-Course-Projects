@@ -2,11 +2,11 @@
 This is for my projects from the HTML and CSS course
 
 **Projects:**
--Project folder
--One-Page-Website
--Bootstrap project
--CSS Menu
--Basic HTML
+  +Project folder
+  +One-Page-Website
+  +Bootstrap project
+  +CSS Menu
+  +Basic HTML
 
 **Project folder:**
   This folder contains our Space Station project. We created a sample home page for a Space travel company. It uses CSS for styling and contains a navbar, image containers, a form and animation effects.

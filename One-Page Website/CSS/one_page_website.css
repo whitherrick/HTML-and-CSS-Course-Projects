@@ -101,10 +101,10 @@ input[type="text"]:hover {
     box-shadow: 0 0 15px gold;
 }
 .book-reading {
-    text-align: right;
+    text-align: center;
     font-family: "Georgia", Helvetica, sans-serif;
     font-size: large;
-    align-items: right;
+    align-items: center;
 }
 footer {
     text-align: center;
